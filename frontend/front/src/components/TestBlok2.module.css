@@ -1,0 +1,42 @@
+.TestBlok_textZad__bZLDx {
+  padding-top: 0%;
+}
+.timer {
+  padding-bottom: 10px;
+}
+.textZadanie {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.textQuestion {
+  margin-bottom: 10px;
+  font-weight: 900;
+  font-size: 25px;
+}
+.btnContinue {
+  display: flex;
+  margin-top: 40px;
+  flex-direction: column;
+
+  color: #f0e6f6;
+
+  width: 150px;
+  height: 50px;
+  padding: 9px 9px 9px 10px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 18px;
+  background: #7f4de9;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+}
+.arrayBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,365 @@
+.part1 {
+  width: 100%;
+  /*height: 800px;*/
+
+  background-image: url("./pictures/60.png");
+  background-size: cover;
+}
+.background {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  /* Frame 1 */
+  justify-content: space-evenly;
+  height: 80px;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.33);
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+}
+/* LOGO */
+.Logo {
+  display: flex;
+  width: 137px;
+  height: 49px;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.menuContainer {
+  display: flex;
+  flex-direction: row;
+}
+.menuItem {
+  width: 120px;
+  height: 80px;
+  margin-left: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+
+  justify-content: center;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+.menuItem:hover {
+  border-bottom: 3px solid #7f4de9;
+  color: #7f4de9;
+}
+/* Войти */
+.logInBtn button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 160px;
+  height: 60px;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  /* margin-top: 15px;*/
+  border: 1px solid #000;
+  background: rgba(0, 0, 0, 0.33);
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logInBtn button:hover {
+  color: #7f4de9;
+}
+.TextContainer {
+  margin-left: 30%;
+  margin-top: 200px;
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+}
+.Title {
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.Text {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.toggle {
+  margin-left: 46%;
+  margin-top: 18%;
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  background-image: url("./pictures/toggle.png");
+  margin-bottom: 130px;
+}
+.part2 {
+  width: 100%;
+}
+.Blok2 {
+  margin-left: 30%;
+  padding-top: 80px;
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+}
+.titleBlok2 {
+  color: #30173d;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+}
+.textBlok2 {
+  color: #30173d;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.reasons {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 80px;
+}
+.IC1 {
+  margin-top: 5px;
+  width: 62px;
+  height: 62px;
+  background-size: cover;
+  background-image: url("./pictures/big-data.png");
+}
+.IC2 {
+  width: 70px;
+  height: 70px;
+  background-size: cover;
+  background-image: url("./pictures/reading.png");
+}
+.IC3 {
+  margin-top: 5px;
+  width: 62px;
+  height: 62px;
+  background-size: cover;
+  background-image: url("./pictures/coronavirus.png");
+}
+.reason {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  width: 25%;
+}
+.reasonTitle {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: #30173d;
+  text-align: center;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+}
+.reasonText {
+  color: #30173d;
+}
+/*part3*/
+.part3 {
+  padding-bottom: 40px;
+  background: #f0e6f6;
+}
+.title3 {
+  padding-top: 30px;
+  color: #30173d;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+}
+.Mnemo {
+  margin-left: 80px;
+  margin-top: 20px;
+  width: 50%;
+  color: #30173d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.IMG {
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  background-size: cover;
+  background-image: url("./pictures/1675489950_top-fon-com-p-foni-dlya-prezentatsii-pamyat-cheloveka-166.jpg");
+}
+.TecContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.TecBlock {
+  width: 50%;
+  margin-left: 60px;
+}
+.tecTitle {
+  margin-left: 30px;
+  color: #30173d;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+}
+.tecItems li {
+  color: #30173d;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.tecItems p {
+  color: #30173d;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.pracTitle {
+  margin-left: 35px;
+  color: #30173d;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+}
+.PractBlock {
+  padding-left: 20px;
+}
+.pracItems li {
+  color: #30173d;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.pracItems p {
+  color: #30173d;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.firstTestBtn button {
+  display: flex;
+
+  flex-direction: column;
+
+  color: #f0e6f6;
+
+  width: 150px;
+  height: 50px;
+  padding: 9px 9px 9px 10px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 18px;
+  background: #30173d;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+}
+.firstTestBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.part4 {
+  display: flex;
+
+  height: 60px;
+  background: #30173d;
+  justify-content: space-between;
+}
+.SIC1 {
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  background-image: url("./pictures/vkontakte.png");
+}
+.SIC2 {
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  background-image: url("./pictures/telegram.png");
+}
+.SIC3 {
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  background-image: url("./pictures/email.png");
+}
+.socialIc {
+  display: flex;
+  width: 20%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+/*О проекте*/
+.TitleAbout {
+  color: #fff;
+  text-align: center;
+  margin-top: 80px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.TitleAbout h3,
+h1 {
+  color: #fff;
+}
+.AboutC {
+  display: flex;
+  margin-top: 10%;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 220px;
+}
+.TitleAbout p {
+  text-align: center;
+}
+.TextAbout ul {
+  color: #f0e6f6;
+  font-size: 20px;
+}
+.TextAbout h3 {
+  color: #f0e6f6;
+  font-size: 20px;
+}
+.TextContainerAbout h1 {
+  color: #fff;
+}
+.startDate:focus {
+  outline: none;
+}

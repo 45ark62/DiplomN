@@ -1,0 +1,148 @@
+.part1 {
+  width: 100%;
+  /*height: 800px;*/
+  display: flex;
+  flex-direction: row;
+  background-image: url("./pictures/60.png");
+  background-size: cover;
+}
+.background {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  /* Frame 1 */
+
+  height: 80px;
+
+  align-items: center;
+  background: rgba(0, 0, 0, 0.33);
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+}
+/* LOGO */
+.Logo {
+  margin-left: 10%;
+  margin-right: 15%;
+  display: flex;
+  width: 137px;
+  height: 49px;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+}
+.CardsAndMenu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.menuContainer {
+  display: flex;
+  flex-direction: row;
+}
+.menuItem {
+  width: 120px;
+  height: 80px;
+  margin-left: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+
+  justify-content: center;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+.menuItem:hover {
+  border-bottom: 3px solid #7f4de9;
+  color: #7f4de9;
+}
+/* Войти */
+.logInBtn button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 160px;
+  height: 60px;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  border: 1px solid #000;
+  background: rgba(0, 0, 0, 0.33);
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logInBtn button:hover {
+  color: #7f4de9;
+}
+.BlockLeft {
+  width: 20%;
+  background-color: #30173d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 830px;
+}
+.MainBlock {
+  width: 100%;
+  background-color: #d6d2e7;
+  min-height: 830px;
+  display: flex;
+  justify-content: center;
+}
+.ListFilter {
+  width: 100%;
+  height: 45px;
+  border-radius: 12px;
+  border: 1px solid var(--blue-gray-300, #cbd5e1);
+  background: var(--blue-gray-50, #f8fafc);
+}
+.ListFilter:focus {
+  outline: none;
+}
+.averageScoreStyle {
+  display: flex;
+  width: 100%;
+  height: 250px;
+  /*background-color: #30173d;*/
+  margin-top: 30px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.circle {
+  margin-top: 15px;
+  width: 150px;
+  height: 150px;
+  background-color: #fff;
+  border-radius: 100%;
+  display: flex;
+  font-size: 30px;
+  font-weight: bold;
+  align-items: center;
+
+  justify-content: center;
+}
+.textCircle {
+  color: #30173d;
+  display: flex;
+  flex-direction: column-reverse;
+  font-size: 20px;
+  align-items: center;
+}
+.startDate:focus {
+  outline: none;
+}
+.startDate {
+  width: 500px;
+}

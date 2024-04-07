@@ -1,0 +1,168 @@
+.background {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  /* Frame 1 */
+  justify-content: space-evenly;
+  height: 80px;
+  align-items: center;
+  background: #30173d;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+}
+/* LOGO */
+.Logo {
+  display: flex;
+  width: 137px;
+  height: 49px;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.menuContainer {
+  display: flex;
+  flex-direction: row;
+}
+.menuItem {
+  width: 120px;
+  height: 80px;
+  margin-left: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+
+  justify-content: center;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+.menuItem:hover {
+  border-bottom: 3px solid #7f4de9;
+  color: #7f4de9;
+}
+/* Войти */
+.logInBtn button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100px;
+  height: 60px;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  border: 1px solid #000;
+  background: #5b386e;
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.part4 {
+  display: flex;
+
+  height: 60px;
+  background: #30173d;
+  justify-content: space-between;
+}
+.SIC1 {
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  background-image: url("./pictures/vkontakte.png");
+}
+.SIC2 {
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  background-image: url("./pictures/telegram.png");
+}
+.SIC3 {
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  background-image: url("./pictures/email.png");
+}
+.socialIc {
+  display: flex;
+  width: 20%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.PrimaryTestBlock {
+  background: linear-gradient(
+      0deg,
+      rgba(48, 23, 61, 0.07) 0%,
+      rgba(48, 23, 61, 0.07) 100%
+    ),
+    #fff;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+  min-height: 800px;
+}
+.Ptext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Test {
+  background-color: #ffffff;
+  width: 50%;
+  height: 600px;
+  border-radius: 50px;
+  display: flex;
+}
+.TestText p {
+  color: #30173d;
+  font-size: 16px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.ReadyBtn button {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  width: 140px;
+  height: 60px;
+  padding: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: #30173d;
+}
+.ReadyBtn button:hover {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  width: 140px;
+  height: 60px;
+  padding: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: #7f4de9;
+}
+.ReadyBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}

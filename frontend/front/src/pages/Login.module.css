@@ -1,0 +1,171 @@
+.MainBlock {
+  display: flex;
+
+  flex-direction: row;
+}
+.Left {
+  display: flex;
+  background: #30173d;
+  width: 40%;
+  flex-direction: column;
+  height: 920px;
+  justify-content: center;
+  align-items: center;
+}
+.Right {
+  width: 60%;
+  height: 920px;
+  background: linear-gradient(
+      0deg,
+      rgba(48, 23, 61, 0.07) 0%,
+      rgba(48, 23, 61, 0.07) 100%
+    ),
+    #fff;
+}
+.Title {
+  color: #fff;
+  width: 77%;
+
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+.Text {
+  color: var(--blue-gray-300, #cbd5e1);
+  /* Regular/18px */
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  width: 75%;
+}
+/*RIGHT*/
+.LoginBlock {
+  margin-left: 25%;
+  margin-right: 10%;
+}
+.vhodText {
+  margin-top: 15%;
+  margin-left: 35%;
+  color: #30173d;
+  margin-bottom: 30px;
+
+  /* Bold/52px */
+
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 62px; /* 119.231% */
+  letter-spacing: -2px;
+}
+.EmailText {
+  color: #30173d;
+  /* Semi-bold/16px */
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.EmailInput input {
+  width: 526px;
+  height: 45px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid var(--blue-gray-300, #cbd5e1);
+  background: var(--blue-gray-50, #f8fafc);
+  font-size: 20px;
+}
+.PassText {
+  color: #30173d;
+  /* Semi-bold/16px */
+  /* margin-bottom: 10px;*/
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.PassInput input {
+  width: 526px;
+  height: 45px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid var(--blue-gray-300, #cbd5e1);
+  background: var(--blue-gray-50, #f8fafc);
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.checkBlock {
+  display: flex;
+  margin-bottom: 30px;
+}
+.checkBox {
+  color: #30173d;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+}
+.checkBox input {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid var(--blue-gray-400, #94a3b8);
+}
+.LinkPass a {
+  color: #7f4de9;
+
+  /* Regular/13px */
+  padding-left: 300px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+}
+.LoginBtn button {
+  display: flex;
+  width: 160px;
+  height: 55px;
+  padding: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: #30173d;
+  color: #fff;
+}
+.LinkReg {
+  color: #64748b;
+  margin-top: 30px;
+  /* Regular/13px */
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+  color: #64748b;
+}
+.LinkReg .a {
+  color: #7f4de9;
+  padding-left: 5px;
+  /* Regular/13px */
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+}
+.Error {
+  color: red;
+  margin-bottom: 40px;
+}
+.ErrorMessage {
+  color: red;
+  margin-bottom: 10px;
+}

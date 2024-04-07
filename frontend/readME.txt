@@ -1,0 +1,2 @@
+Здравствуйте! Из-за видео,которые хранятся в моих проектах,я не могу архив залить в сдо.Поэтому пока прикрепляю ссылку на архив
+https://drive.google.com/file/d/1iEJW4PGqojrNMr3anqqylw5WzylHZJrJ/view?usp=sharing
